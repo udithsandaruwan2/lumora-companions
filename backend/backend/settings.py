@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Add the new app to the list of installed apps
+    'users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
