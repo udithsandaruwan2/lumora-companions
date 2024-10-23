@@ -20,4 +20,4 @@ class Profile(models.Model):
     uuid = models.UUIDField(default=uuid.uuid4, unique=True, primary_key=True, editable=False)
 
     def __str__(self):
-        return str(self.email)
+        return str(self.username)
